@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomRadarChartView">
+        <attr name="polygonsNum" format="integer"/>
+        <attr name="layerNum" format="integer"/>
+        <attr name="splitLineColor" format="color"/>
+        <attr name="levelLineColor" format="color"/>
+        <attr name="tipTextColor" format="color"/>
+        <attr name="tipTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>

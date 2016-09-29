@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xiezilailai.CustomRadarChartView.MainActivity">
+
+
+    <com.example.xiezilailai.CustomRadarChartView.CustomRadarChartView
+        android:layout_width="wrap_content"
+        app:levelLineColor="@color/red_5"
+        app:tipTextColor="@color/colorPrimaryDark"
+        app:polygonsNum="5"
+        app:layerNum="5"
+        app:tipTextSize="13sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/customPolygonsView" />
+
+
+    <SeekBar
+        android:id="@+id/bar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/bar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/bar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/bar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/bar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
